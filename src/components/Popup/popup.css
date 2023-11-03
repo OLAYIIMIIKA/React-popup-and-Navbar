@@ -1,0 +1,80 @@
+.popup {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.897);
+   
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.popup-alert {
+    position: relative;
+    padding: 32px;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(75, 75, 102, 0.986);
+    color: rgb(214, 193, 193);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 12px;
+
+    
+}
+
+.popup-alert .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    background-color: rgb(211, 70, 70);
+    border-radius: 20px;
+    border: none;
+    font-size: 3rex
+    
+}
+
+.popup h1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ .Paragraph {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(45, 170, 219);
+    box-shadow: 0px 5px 5px #110f0f;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancel-btn {
+    background-color: crimson;
+}
